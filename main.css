@@ -1,13 +1,9 @@
 @font-face {
-  font-family: fixedsys;
-  src: url(./font/fixedsys.ttf);
-}
-@font-face {
   font-family: Fixedsys;
   font-style: normal;
   font-weight: normal;
-  src: local('Fixedsys Excelsior 3.01'), url('FSEX300.woff') format('woff');
-  }
+  src: url("./font/FSEX300.woff") format("woff");
+}
 :root {
   font-size: 16px;
   font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -56,18 +52,19 @@ nav a {
   padding-left: 12vw;
 }
 main {
-  margin: 5vw 13vw;
+  margin: 5vh 13vw;
 }
 main a {
   text-decoration: none;
   color: rgb(104, 189, 218);
 }
-main ul a  {
+main ul a {
   color: rgb(36, 36, 43);
 }
 #gates {
   float: right;
- box-shadow: #333 5px 5px 2px;
+  box-shadow: #333 5px 5px 2px;
+  margin-left: 1vw;
 }
 .container {
   background-color: #333;
@@ -82,13 +79,50 @@ footer {
   color: #616161;
   background-color: #f2f2f2;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   overflow: hidden;
   /*fix and figure out why its overflowing */
 }
 #main-footer {
   position: fixed;
 }
-#win-1 {
+.windows p{
   font-family: Fixedsys;
+  /* find other win version fonts */
+}
+.windows div {
+  padding: 1vw;
+  margin: 1vw;
+  width: 100%;
+}
+.firstOne {
+  background-color: #fcf944;
+}
+.secondOne{
+  background-color: #87fbff;
+}
+.thirdWin
+{
+  background-color: #bdbbbb;
+}
+.win95 {
+background-color: #018281;
+color: white;
+}
+.winMe {
+  background-color: #394ead;
+  color: white;
+}
+/*is there a better way to write this */
+.GUI-right {
+  float: right;
+  margin: 1vw;
+  width: 20vw;
+  box-shadow: #333 5px 5px 2px;
+}
+.GUI-left {
+  float: left;
+  margin: 1vw;
+  width: 20vw;
+  box-shadow: #333 5px 5px 2px;
 }
