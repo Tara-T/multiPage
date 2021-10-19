@@ -1,0 +1,79 @@
+:root {
+  font-size: 16px;
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  padding-left: 12vw;
+}
+nav ul {
+  background-color: #fff;
+  list-style: none;
+  overflow: hidden;
+  margin: inherit;
+  padding-left: 0;
+}
+nav li {
+  float: left;
+}
+li a:hover,
+main a:hover {
+  text-decoration: underline;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 1.5rem;
+  font-size: 13px;
+}
+.btn-nav {
+  padding-top: 1.9rem; /*find a better way to do this*/
+}
+
+#home-nav img {
+  height: 25px; /*change it out of pixels*/
+}
+#home-nav a {
+  padding-left: 0;
+}
+.disclamer {
+  color: red;
+  padding-left: 12vw;
+}
+main {
+  margin: 5vw 13vw;
+}
+main a {
+  text-decoration: none;
+  color: rgb(104, 189, 218);
+}
+main ul a  {
+  color: rgb(36, 36, 43);
+}
+#gates {
+  float: right;
+ box-shadow: #333 5px 5px 2px;
+}
+.container {
+  background-color: #333;
+  color: white;
+  padding: 2vw;
+}
+footer {
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  padding: 1vh 12vw;
+  color: #616161;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  overflow: hidden;
+  /*fix and figure out why its overflowing */
+}
+
