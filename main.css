@@ -81,14 +81,12 @@ footer {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  /*fix and figure out why its overflowing */
 }
 #main-footer {
   position: fixed;
 }
 .windows p {
   font-family: Fixedsys;
-  /* find other win version fonts */
 }
 .windows div {
   padding: 1vw;
@@ -145,10 +143,10 @@ footer {
   width: 20vw;
   box-shadow: #333 5px 5px 2px;
 }
-.arrow {
+/*.arrow {
   font-size: 30px;
   display: inline;
-}
+}*/
 .xbox-title {
   color: green;
 }
@@ -157,17 +155,17 @@ footer {
   flex-direction: row;
   justify-content: center;
 }
-.xbox-cards img {
+.xbox-grid img {
   height: 12vw;
 }
-.card {
-  border: 1px solid black;
-  border-radius: 5px;
-
-  margin: 2vw;
+.xbox-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  grid-gap: 3vw;
 }
-.card div {
-  background-color: #333;
-  color: white;
-  padding: 1vw;
+.xbox-grid img {
+  justify-self: center;
 }
