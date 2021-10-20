@@ -17,7 +17,7 @@ nav {
   padding-left: 12vw;
 }
 nav ul {
-  background-color: #fff;
+  background-color: transparent;
   list-style: none;
   overflow: hidden;
   margin: inherit;
@@ -86,33 +86,52 @@ footer {
 #main-footer {
   position: fixed;
 }
-.windows p{
+.windows p {
   font-family: Fixedsys;
   /* find other win version fonts */
 }
 .windows div {
   padding: 1vw;
   margin: 1vw;
-  width: 100%;
 }
 .firstOne {
   background-color: #fcf944;
 }
-.secondOne{
+.secondOne {
   background-color: #87fbff;
 }
-.thirdWin
-{
+.thirdWin {
   background-color: #bdbbbb;
 }
 .win95 {
-background-color: #018281;
-color: white;
+  background-color: #018281;
+  color: white;
 }
 .winMe {
   background-color: #394ead;
   color: white;
 }
+.winXP {
+  background-color: #245edc;
+  color: white;
+}
+.winVista {
+  background-color: #1c6242;
+  color: white;
+}
+.win7 {
+  background-color: #042f64;
+  color: white;
+}
+.win8 {
+  background-color: #180052;
+  color: white;
+}
+.win10 {
+  background-color: #141f4d;
+  color: white;
+}
+
 /*is there a better way to write this */
 .GUI-right {
   float: right;
@@ -125,4 +144,30 @@ color: white;
   margin: 1vw;
   width: 20vw;
   box-shadow: #333 5px 5px 2px;
+}
+.arrow {
+  font-size: 30px;
+  display: inline;
+}
+.xbox-title {
+  color: green;
+}
+.xbox-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.xbox-cards img {
+  height: 12vw;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+
+  margin: 2vw;
+}
+.card div {
+  background-color: #333;
+  color: white;
+  padding: 1vw;
 }
